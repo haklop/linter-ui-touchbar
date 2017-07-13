@@ -1,11 +1,11 @@
 {
-  "name": "touch-bar-package",
+  "name": "linter-ui-touchbar",
   "main": "./lib/index.js",
-  "version": "0.0.0",
-  "description": "linter-ui provider with Apple Touch Bar Support",
+  "version": "0.1.0",
+  "description": "linter-ui package for Apple Touch Bar",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/touch-bar-package",
+  "repository": "https://github.com/haklop/linter-ui-touchbar.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
