@@ -1,18 +1,39 @@
 {
   "name": "touch-bar-package",
-  "main": "./lib/touch-bar-package",
+  "main": "./lib/index.js",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "linter-ui provider with Apple Touch Bar Support",
   "keywords": [
   ],
-  "activationCommands": {
-    "atom-workspace": "touch-bar-package:toggle"
-  },
   "repository": "https://github.com/atom/touch-bar-package",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.19.0 <2.0.0"
   },
   "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-xo-space": "^0.15.0"
+  },
+  "providedServices": {
+    "linter-ui": {
+      "versions": {
+        "1.0.0": "provideUI"
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "no-console": "error",
+      "camelcase": "warn"
+    }
   }
 }
