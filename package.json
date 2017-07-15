@@ -23,9 +23,16 @@
       }
     }
   },
-  "scripts": {
-    "lint": "eslint ."
+  "consumedServices": {
+    "touchbar-registry": {
+      "versions": {
+        "0.1.0": "consumeTouchBar"
+      }
+    }
   },
+  "package-deps": [
+    "touchbar-registry"
+  ],
   "eslintConfig": {
     "extends": "xo-space/esnext",
     "env": {
