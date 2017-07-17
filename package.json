@@ -9,7 +9,9 @@
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "atom-package-deps": "^4.6.0"
+  },
   "devDependencies": {
     "eslint": "^3.2.2",
     "eslint-config-xo-space": "^0.15.0"
