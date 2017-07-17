@@ -6,7 +6,7 @@ An UI based on the Apple Touch Bar for linter.
 
 ### Installation
 
-**Atom 1.9+ required.**
+**Atom 1.19+ required.**
 
 You can install it from the CLI.
 
