@@ -3,15 +3,13 @@
   "main": "./lib/index.js",
   "version": "0.1.0",
   "description": "linter-ui package for Apple Touch Bar",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/haklop/linter-ui-touchbar.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.2.2",
     "eslint-config-xo-space": "^0.15.0"
