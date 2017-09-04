@@ -1,7 +1,7 @@
 {
   "name": "linter-ui-touchbar",
   "main": "./lib/index.js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A linter-ui extension for the Apple's TouchBar",
   "keywords": [],
   "repository": "https://github.com/haklop/linter-ui-touchbar.git",
